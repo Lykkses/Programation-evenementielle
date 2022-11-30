@@ -13,4 +13,4 @@ else:
     print("Pas de problèmes détéctés.")
 
 finally:
-    print(res)
+    print("Fin du programme.")
