@@ -1,7 +1,7 @@
 
 if __name__ == "main":
     try:
-        with open ("textefile.txt", "r") as f:
+        with open ("textfile.txt", "r") as f:
             for i in f:
                 l= l.rstrip("\n\r")
                 print(l)
