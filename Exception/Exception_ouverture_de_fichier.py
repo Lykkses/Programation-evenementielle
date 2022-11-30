@@ -3,7 +3,7 @@
 
 if __name__ == "__main__":
     try:
-        f = open("textefile.txt", "r")
+        f = open("textfile.txt", "r")
         content = f.read()
         f.close()
     except FileNotFoundError:   #Exception si le fichier n'existe pas
